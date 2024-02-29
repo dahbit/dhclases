@@ -18,10 +18,10 @@ CREATE DATABASE EMarket;
 USE EMarket;
 
 --
--- Definition of table `Categorias`
+-- Definition of table `Categories`
 --
 
-DROP TABLE IF EXISTS `Categorias`;
+DROP TABLE IF EXISTS `Categories`;
 CREATE TABLE `Categorias` (
   `CategoriaID` int(11) NOT NULL AUTO_INCREMENT,
   `CategoriaNombre` varchar(15) NOT NULL,
